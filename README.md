@@ -104,3 +104,27 @@ ML-Foundations-LearnLog/
 └── README.md
 ```
 
+---
+
+## ⚙️ Tech Stack  
+| Tool | Purpose |
+|------|----------|
+| 🐍 **Python** | Core programming |
+| 📓 **Jupyter Notebook** | Interactive ML exploration |
+| 🧮 **NumPy / Pandas** | Data manipulation |
+| 📊 **Matplotlib / Seaborn** | Visualization |
+| 🤖 **Scikit-learn** | ML algorithms & evaluation |
+
+---
+
+## 🎯 Goal  
+To build a **solid understanding of machine learning algorithms** — from mathematical foundations to real-world implementations — while improving coding consistency and project organization for GitHub growth 🌱✨  
+
+---
+
+## ✨ Author  
+**👩‍💻 Navaneetha Jose (Navi)**  
+🌍 Passionate about AI, ML & meaningful tech creations  
+🔗 [GitHub Profile](https://github.com/navijose24)  
+💬 “Consistency builds confidence, and confidence fuels mastery.” 💫  
+

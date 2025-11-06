@@ -69,3 +69,38 @@ It combines **concept clarity, mathematics, and Python implementations** to buil
 ---
 
 ## 📂 Repository Structure  
+```
+ML-Foundations-LearnLog/
+│
+├── Overview_of_ML/
+│ ├── Notes.md
+│ └── Bayesian_Formulation.ipynb
+│
+├── Supervised_Learning/
+│ ├── Linear_Regression.ipynb
+│ ├── Logistic_Regression.ipynb
+│ ├── Naive_Bayes.ipynb
+│ └── Decision_Tree_ID3.ipynb
+│
+├── NeuralNetworks_SVM/
+│ ├── Perceptron.ipynb
+│ ├── FeedForward_Network.ipynb
+│ ├── Backpropagation.ipynb
+│ ├── SVM_Basics.ipynb
+│ └── Kernels_RBF_Polynomial.ipynb
+│
+├── Unsupervised_Learning/
+│ ├── KMeans_Clustering.ipynb
+│ ├── Hierarchical_Clustering.ipynb
+│ ├── EM_Clustering.ipynb
+│ └── PCA_DimensionalityReduction.ipynb
+│
+├── Model_Evaluation/
+│ ├── Metrics_Comparison.ipynb
+│ ├── ROC_AUC.ipynb
+│ ├── CrossValidation_Ensembles.ipynb
+│ └── FaceDetection_CaseStudy.ipynb
+│
+└── README.md
+```
+

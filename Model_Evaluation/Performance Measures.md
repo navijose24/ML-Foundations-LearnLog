@@ -39,9 +39,9 @@ Everything in classification metrics starts here 👇
 ## ⚖️ 2. Accuracy
 
 **Formula:**
-$$
+$
 Accuracy = \frac{TP + TN}{TP + TN + FP + FN}
-$$
+$
 
 🧠 **Meaning:** How often the classifier is correct overall.
 📍 **Use:** Best for **balanced datasets** (equal positives & negatives).
@@ -54,9 +54,9 @@ $$
 ## 🎯 3. Precision
 
 **Formula:**
-$$
+$
 Precision = \frac{TP}{TP + FP}
-$$
+$
 
 🧠 **Meaning:** Of all items predicted positive, how many are actually positive.
 📍 **Use:** Important when **false positives are costly** (e.g., spam detection — we don’t want normal emails marked as spam).
@@ -68,9 +68,9 @@ $$
 ## 🔍 4. Recall (Sensitivity or True Positive Rate)
 
 **Formula:**
-$$
+$
 Recall = \frac{TP}{TP + FN}
-$$
+$
 
 
 🧠 **Meaning:** Of all actual positives, how many did we correctly identify?
@@ -83,9 +83,9 @@ $$
 ## ⚖️ 5. F1-Score
 
 **Formula:**
-$$
+$
 F1 = 2 \times \frac{Precision \times Recall}{Precision + Recall}
-$$
+$
 
 🧠 **Meaning:** A balance between precision and recall.
 📍 **Use:** When dataset is **imbalanced** and you want a single score summarizing both.

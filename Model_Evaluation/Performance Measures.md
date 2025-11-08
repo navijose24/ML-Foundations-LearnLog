@@ -39,9 +39,7 @@ Everything in classification metrics starts here 👇
 ## ⚖️ 2. Accuracy
 
 **Formula:**
-[
-\text{Accuracy} = \frac{TP + TN}{TP + TN + FP + FN}
-]
+Accuracy formula: $Accuracy = \frac{TP + TN}{TP + TN + FP + FN}$
 
 🧠 **Meaning:** How often the classifier is correct overall.
 📍 **Use:** Best for **balanced datasets** (equal positives & negatives).

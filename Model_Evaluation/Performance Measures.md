@@ -150,7 +150,7 @@ Compare models — the one with higher AUC performs better.
 ---
 
 Choice of metric and tradeoffs
-| **Metric**                      | **When to Use / Guidance**                                                                                                                                                                                                              |
+| **Metric**                      | **When to Use /  Guidance**                                                                                                                                                                                                              |
 | ------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Accuracy**                    | ✅ Use as a rough indicator of model’s training progress or convergence when the dataset is **balanced**.<br>⚠️ Avoid using it alone for **imbalanced datasets** (e.g., 95% negative, 5% positive). Combine it with Precision or Recall. |
 | **Recall (True Positive Rate)** | 📈 Use when **missing actual positives (FN)** is more costly than having extra false alarms (FP).<br>💡 Example: Disease detection, fraud detection — better to catch all possible positives even if a few false ones slip in.          |

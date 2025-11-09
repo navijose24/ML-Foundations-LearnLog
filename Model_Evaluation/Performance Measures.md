@@ -148,3 +148,11 @@ Compare models — the one with higher AUC performs better.
 | Credit Fraud      | **F1-Score** (balance both)           |
 
 ---
+
+Choice of metric and tradeoffs
+| **Metric**                      | **When to Use / Guidance**                                                                                                                                                                                                              |
+| ------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Accuracy**                    | ✅ Use as a rough indicator of model’s training progress or convergence when the dataset is **balanced**.<br>⚠️ Avoid using it alone for **imbalanced datasets** (e.g., 95% negative, 5% positive). Combine it with Precision or Recall. |
+| **Recall (True Positive Rate)** | 📈 Use when **missing actual positives (FN)** is more costly than having extra false alarms (FP).<br>💡 Example: Disease detection, fraud detection — better to catch all possible positives even if a few false ones slip in.          |
+| **False Positive Rate (FPR)**   | 🚨 Use when **false positives** are more costly than false negatives.<br>💡 Example: Spam filter — don’t wrongly mark an important email as spam.                                                                                       |
+| **Precision**                   | 🎯 Use when it’s very important that every **positive prediction** is **truly positive**.<br>💡 Example: Email spam detection — better to mark fewer emails as spam but ensure those are really spam.                                   |

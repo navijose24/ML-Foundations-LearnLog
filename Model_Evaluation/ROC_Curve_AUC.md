@@ -14,10 +14,10 @@ The area under the ROC curve (AUC) represents the probability that the model, if
 
 If false positives (false alarms) are highly costly, it may make sense to choose a threshold that gives a lower FPR, like the one at point A, even if TPR is reduced. Conversely, if false positives are cheap and false negatives (missed true positives) highly costly, the threshold for point C, which maximizes TPR, may be preferable. If the costs are roughly equivalent, point B may offer the best balance between TPR and FPR.
 
-** AUC = 1.O - PERFECT **
-** AUC > O.5 - FAIR **
-** AUC = 0.5 - RANDOM GUESSING **
-** AUC < 0.5 - WORSE THAN CHANCE **
+**AUC = 1.O - PERFECT**
+**AUC > O.5 - FAIR**
+**AUC = 0.5 - RANDOM GUESSING**
+**AUC < 0.5 - WORSE THAN CHANCE**
 
 If AUC < 0.5, it’s actually worse than random — the model is predicting in the wrong direction (it might be labeling positives as negatives and vice versa).If you flip your predictions (swap 0 ↔ 1), the AUC would become 1 - original AUC, turning a poor model (>0.5) into a good one.
 

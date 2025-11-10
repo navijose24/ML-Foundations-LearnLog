@@ -74,32 +74,32 @@ ML-Foundations-LearnLog/
 │
 ├── Overview_of_ML/
 │ ├── Notes.md
-│ └── Bayesian_Formulation.ipynb
+│ └── Bayesian_Formulation
 │
 ├── Supervised_Learning/
-│ ├── Linear_Regression.ipynb
-│ ├── Logistic_Regression.ipynb
-│ ├── Naive_Bayes.ipynb
-│ └── Decision_Tree_ID3.ipynb
+│ ├── Linear_Regression
+│ ├── Logistic_Regression
+│ ├── Naive_Bayes
+│ └── Decision_Tree_ID3
 │
 ├── NeuralNetworks_SVM/
-│ ├── Perceptron.ipynb
-│ ├── FeedForward_Network.ipynb
-│ ├── Backpropagation.ipynb
-│ ├── SVM_Basics.ipynb
-│ └── Kernels_RBF_Polynomial.ipynb
+│ ├── Perceptron
+│ ├── FeedForward_Network
+│ ├── Backpropagation
+│ ├── SVM_Basics
+│ └── Kernels_RBF_Polynomial
 │
 ├── Unsupervised_Learning/
-│ ├── KMeans_Clustering.ipynb
-│ ├── Hierarchical_Clustering.ipynb
-│ ├── EM_Clustering.ipynb
-│ └── PCA_DimensionalityReduction.ipynb
+│ ├── KMeans_Clustering
+│ ├── Hierarchical_Clustering
+│ ├── EM_Clustering
+│ └── PCA_DimensionalityReduction
 │
 ├── Model_Evaluation/
-│ ├── Metrics_Comparison.ipynb
-│ ├── ROC_AUC.ipynb
-│ ├── CrossValidation_Ensembles.ipynb
-│ └── FaceDetection_CaseStudy.ipynb
+│ ├── Metrics_Comparison
+│ ├── ROC_AUC
+│ ├── CrossValidation_Ensembles
+│ └── FaceDetection_CaseStudy
 │
 └── README.md
 ```

@@ -1,4 +1,5 @@
-## Resampling
+### Resampling
+
 
 ❑ Repeatedly draw sub-samples from the given data set
 ❑ Then use these splits to fit and assess the model
@@ -11,7 +12,7 @@ Bootstrapping:
 ❑ Quantify the uncertainty of an estimator or method
 ❑ Returns standard errors or confidence intervals for a coefficient
 
-## Bootstrapping
+### Bootstrapping
 
 Bootstrapping is a statistical resampling technique used to estimate how well your model performs.It works by randomly sampling (with replacement) from your dataset to create many new “bootstrap” datasets.
 
@@ -30,11 +31,13 @@ When the dataset is small — it helps simulate many samples from limited data.
 Let’s say you train a decision tree 1000 times using bootstrapped samples.
 You’ll get 1000 accuracy values → you can calculate the mean accuracy and standard deviation to know how stable your model is.
 
-![Bootstrap -Representation](images/bootstraping.png)
+![Bootstrap -Representation](images/bootstrapping.png)
+
 
 ---
 
-## What is Cross-Validation?
+
+### What is Cross-Validation?
 
 **Cross-validation (CV)** is a technique used to **test how well a model generalizes** — i.e., how it performs on unseen data.
 It splits the dataset into multiple parts to make sure the model isn’t just memorizing one specific split.

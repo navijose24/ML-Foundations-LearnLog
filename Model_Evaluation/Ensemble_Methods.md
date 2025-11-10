@@ -4,7 +4,8 @@
 **Ensemble methods** combine the predictions of **multiple models** to create a **stronger, more accurate model** than any single one alone.
 Idea → “Many weak learners together can make one strong learner.”
 
-    > Ensemble learning improves model performance by combining multiple models to reduce bias, variance, or both. Bagging decreases variance, boosting reduces bias, and stacking learns optimal model combinations.
+    > Ensemble learning improves model performance by combining multiple models to reduce bias, variance, or both. 
+    Bagging decreases variance, boosting reduces bias, and stacking learns optimal model combinations.
 
 ---
 
@@ -32,6 +33,5 @@ Idea → “Many weak learners together can make one strong learner.”
 
 In Bagging → you train 10 decision trees on different bootstrap samples.
 Each tree gives a prediction, and the final output is decided by **majority voting** (for classification) or **average** (for regression).
-
 
 ---

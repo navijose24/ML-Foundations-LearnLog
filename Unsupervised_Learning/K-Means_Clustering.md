@@ -63,8 +63,11 @@ Think of it like:
 # 4️⃣ **Advantages**
 
 ✔ Simple & fast
+
 ✔ Works well on large datasets
+
 ✔ Easy to interpret
+
 ✔ Always converges
 
 ---
@@ -72,8 +75,11 @@ Think of it like:
 # 5️⃣ **Disadvantages**
 
 ❌ Needs K in advance
+
 ❌ Sensitive to initial centroids
+
 ❌ Sensitive to outliers
+
 ❌ Only works for spherical / convex clusters
 
 ---
@@ -110,7 +116,7 @@ Avoid when:
 
 ### In short:
 
-> **K-Means is a partitional, centroid-based clustering algorithm that partitions data into K clusters. It minimizes the Within-Cluster Sum of Squared Error (WCSS). 
+> K-Means is a partitional, centroid-based clustering algorithm that partitions data into K clusters. It minimizes the Within-Cluster Sum of Squared Error (WCSS). 
 The algorithm repeats two steps: 
     (1) Assignment — assign each point to the nearest centroid using Euclidean distance, and 
     (2) Update — recompute centroids as the mean of all points in the cluster. The process continues until convergence.

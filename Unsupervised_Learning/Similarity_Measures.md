@@ -31,7 +31,7 @@ $d(x,y) = \sqrt{\sum (x_i - y_i)^2}$
 
 ### **Intuition:**
 Measures “how far” two points are.
-*“Most commonly used distance. Sensitive to scale. Works best when features are normalized.”*
+    “Most commonly used distance. Sensitive to scale. Works best when features are normalized.”
 
 ---
 
@@ -50,7 +50,7 @@ $d(x,y) = \sum |x_i - y_i|$
 
 ### **Intuition:**
 Walking in a city → you move like a square path, not diagonally.
-*“Less sensitive to outliers. Good for high-dimensional sparse data.”*
+    “Less sensitive to outliers. Good for high-dimensional sparse data.”
 
 ---
 
@@ -73,7 +73,7 @@ You want to choose how strongly distance should react to differences.
 ### **Intuition:**
 
 A customizable distance.
-*“Minkowski = generalized Lp norm.”*
+    “Minkowski = generalized Lp norm.”
 
 ---
 
@@ -96,7 +96,7 @@ Doesn’t care about magnitude → only direction.
 Example:
 Two documents with same topic but different length should still be similar → cosine works best.
 
-    *“Cosine similarity measures orientation, not distance. Good for sparse vectors.”*
+    “Cosine similarity measures orientation, not distance. Good for sparse vectors.”
 
 ---
 
@@ -119,7 +119,7 @@ Measures overlap divided by total unique items.
 Example:
 Similarity of two users’ liked movies.
     
-    *“Used for categorical and binary attributes.”*
+    “Used for categorical and binary attributes.”
 
 ---
 
@@ -141,7 +141,7 @@ $r = \frac{\text{cov}(x,y)}{\sigma_x \sigma_y}$
 -1 = opposite
 0 = unrelated
 
-    *“Distance can be derived as 1 – correlation.”*
+    “Distance can be derived as 1 – correlation.”
 
 ---
 

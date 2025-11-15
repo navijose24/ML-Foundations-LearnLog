@@ -8,7 +8,7 @@ A clustering method that builds a **tree-like structure** (called a **dendrogram
 
 There are two types:
 
-### **1. Agglomerative (bottom-up)** → **most important for exam**
+### **1. Agglomerative (bottom-up)** 
 
 Start with each point as a cluster → keep merging.
 
@@ -16,7 +16,6 @@ Start with each point as a cluster → keep merging.
 
 Start with one cluster → keep splitting.
 
-👉 **Syllabus focuses on Agglomerative.**
 
 ---
 
@@ -93,8 +92,11 @@ Merges clusters that result in the **smallest increase in WCSS**.
 # 4️⃣ **Advantages**
 
 ✔ No need to choose K in advance
+
 ✔ Produces dendrogram (full hierarchy)
+
 ✔ Works for any shape clusters
+
 ✔ Good for small datasets
 
 ---
@@ -102,8 +104,11 @@ Merges clusters that result in the **smallest increase in WCSS**.
 # 5️⃣ **Disadvantages**
 
 ❌ Computationally expensive (O(n²))
+
 ❌ Cannot undo merges (greedy algorithm)
+
 ❌ Sensitive to noise & outliers
+
 ❌ Hard for very large datasets
 
 ---

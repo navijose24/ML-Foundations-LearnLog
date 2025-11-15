@@ -1,4 +1,4 @@
-# ⭐ ** K-Means Clustering **
+# ⭐ **K-Means Clustering**
 
 K-Means is the **most popular unsupervised clustering algorithm** used to group data into **K clusters**.
 

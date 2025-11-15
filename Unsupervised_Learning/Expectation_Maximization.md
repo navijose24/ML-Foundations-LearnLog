@@ -57,51 +57,51 @@ This loop continues until it stabilizes.
 EM has **two main steps** repeated until convergence:
 
 
-# 🔵 **Step 1 — E-Step**
+🔵 **Step 1 — E-Step**
 
-Compute **responsibilities**:
+    Compute **responsibilities**:
 
-$r_{ik} = P(\text{cluster}=k \mid x_i)$
+    $r_{ik} = P(\text{cluster}=k \mid x_i)$
 
-This means:
+    This means:
 
-👉 For each point, calculate the **probability** of belonging to each cluster.
+    👉 For each point, calculate the **probability** of belonging to each cluster.
 
-We are *estimating the hidden data*.
+    We are *estimating the hidden data*.
 
-Example:
-Point ( $x_i$ ) belongs:
+    Example:
+    Point ( $x_i$ ) belongs:
 
-* 0.8 probability → Cluster 1
-* 0.2 probability → Cluster 2
-
----
-
-# 🔴 **Step 2 — M-Step (Maximization Step)**
-
-Using these probabilities, update:
-
-* Cluster means (centroids)
-* Cluster variances
-* Cluster weights
-
-$\mu_k = \frac{\sum r_{ik} x_i}{\sum r_{ik}}$
-
-$\sigma_k^2 = \frac{\sum r_{ik}(x_i - \mu_k)^2}{\sum r_{ik}}$
-
-$w_k = \frac{1}{N}\sum r_{ik}$
-
-This step **maximizes the likelihood** of the data given the updated parameters.
+    * 0.8 probability → Cluster 1
+    * 0.2 probability → Cluster 2
 
 ---
 
-# 🌀 Repeat E-Step and M-Step
+🔴 **Step 2 — M-Step (Maximization Step)**
 
-Continue until:
+    Using these probabilities, update:
 
-* Parameters do not change
-  OR
-* Likelihood converges
+    * Cluster means (centroids)
+    * Cluster variances
+    * Cluster weights
+
+    $\mu_k = \frac{\sum r_{ik} x_i}{\sum r_{ik}}$
+
+    $\sigma_k^2 = \frac{\sum r_{ik}(x_i - \mu_k)^2}{\sum r_{ik}}$
+
+    $w_k = \frac{1}{N}\sum r_{ik}$
+
+    This step **maximizes the likelihood** of the data given the updated parameters.
+
+---
+
+🌀 **Repeat E-Step and M-Step**
+
+    Continue until:
+
+    * Parameters do not change
+    OR
+    * Likelihood converges
 
 ---
 
@@ -154,7 +154,6 @@ Continue until:
 > (2) M-Step: Update the cluster parameters (mean, variance, and mixing weight) using these probabilities.
 >
 > This process is repeated until convergence. EM is widely used in Gaussian Mixture Models and soft clustering because it handles overlapping clusters and works well with incomplete data.**
-
 
 
 ---

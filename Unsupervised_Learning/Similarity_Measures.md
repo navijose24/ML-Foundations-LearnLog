@@ -15,4 +15,4 @@
 
     ◼ Clustering or cluster analysis is the task of grouping a set of objectsin such a way that objects in the same group (called a cluster) are more similar (in some sense) to each other than to those in other groups (clusters).
 
-    ![advanced_ensemble_techniques](images/distance_matries.png)
+![advanced_ensemble_techniques](images/distance_matries.png)

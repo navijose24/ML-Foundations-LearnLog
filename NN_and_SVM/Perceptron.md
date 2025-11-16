@@ -1,6 +1,6 @@
 ## ⭐ **Perceptron**
 
-    A perceptron is the **simplest neural network** — just **ONE neuron**.
+    A perceptron is the simplest neural network — just ONE neuron.
     It takes inputs → multiplies by weights → adds bias → applies a function → gives output.
 
 You can imagine it like a **decision maker**.
@@ -30,15 +30,16 @@ x3 ------ w3
 # ⚙️ **Perceptron Formula**
 
 **Weighted sum:**
+
 $z = w_1x_1 + w_2x_2 + ... + w_nx_n + b$
 
 **Activation function (Step function):**
 
-$f(z)=\begin{cases}1 & \text{if } z \ge 0 \0 & \text{if } z < 0 \end{cases}$
+$$
 
 **Final output:**
 
-$y = f(z)$
+     $y = f(z)$
 
 ---
 
@@ -61,18 +62,20 @@ Else → output is **0**
 The perceptron learns by **adjusting weights** whenever it makes a mistake.
 
 **Weight update rule**
+
 $w_{new} = w_{old} + \eta (t - y)x$
 
 
 **Bias update**
 
+
 $b_{new} = b_{old} + \eta (t - y)$
 
 Where
 
-* (t) = true label
-* (y) = predicted output
-* (\eta) = learning rate (0.01, 0.1 etc.)
+* t = true label
+* y = predicted output
+* $\eta$ = learning rate (0.01, 0.1 etc.)
 
 ---
 
@@ -105,7 +108,9 @@ So we update weights:
 $w1 = w1 + η(t – y)x1$
 
 $If η = 0.1:$
+
 $w1 = 0.2 + 0.1(0 – 1)(1)$
+
 $w1 = 0.2 – 0.1 = 0.1$
 
 And so on…
@@ -116,9 +121,13 @@ Eventually the perceptron learns correct weights.
 # Uses:
 
 ✔ Works only for **linearly separable** data
+
 ✔ Used for **binary classification**
+
 ✔ Uses **step activation**
+
 ✔ Learning is based on **perceptron rule**
+
 ✔ Cannot solve XOR
 
 ---

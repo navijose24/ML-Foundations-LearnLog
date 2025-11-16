@@ -143,7 +143,7 @@ Used only in **multi-class classification (output layer)**.
 
 $\sigma(z_i)=\frac{e^{z_i}}{\sum_{j=1}^{K} e^{z_j}}$
 
-![soft max](https://www.researchgate.net/publication/348703101/figure/fig5/AS:983057658040324@1611390618742/Graphic-representation-of-the-softmax-activation-function.ppm)
+![soft max](images/softmax.png)
 
 ### **Where to use:**
 

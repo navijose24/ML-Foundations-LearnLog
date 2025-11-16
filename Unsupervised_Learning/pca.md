@@ -4,7 +4,7 @@ Dimensionality Reduction → Unsupervised Learning
 
 ---
 
-# 1️⃣ **What is PCA?**
+# 1️⃣ What is PCA?
 
 PCA is a mathematical technique that:
 
@@ -16,7 +16,7 @@ These new axes capture the most variance in the data.
 
 ---
 
-# 2️⃣ **Why do we use PCA?**
+# 2️⃣ Why do we use PCA?
 
 
 ✔ Remove redundant or correlated features
@@ -33,7 +33,7 @@ These new axes capture the most variance in the data.
 
 ---
 
-# 3️⃣ **Intuition**
+# 3️⃣ Intuition
 
 Imagine a dataset that lies along a **diagonal line**.
 But your axes (x, y) are horizontal and vertical — not aligned with the data.
@@ -47,7 +47,7 @@ So PCA finds **best directions** to represent your data.
 
 ---
 
-# 4️⃣ **How PCA Works — Step By Step**
+# 4️⃣ How PCA Works — Step By Step
 
 **Step 1: Standardize the data**
 
@@ -87,7 +87,7 @@ This gives us **reduced-dimensional data**.
 
 ---
 
-# 5️⃣ **Variance **
+# 5️⃣ Variance
 
 The proportion of variance captured by each component:
 
@@ -97,7 +97,7 @@ Used to choose number of components.
 
 ---
 
-# 6️⃣ **Advantages**
+# 6️⃣ Advantages
 
 ✔ Reduces dimensionality efficiently
 
@@ -111,7 +111,7 @@ Used to choose number of components.
 
 ---
 
-# 7️⃣ **Disadvantages**
+# 7️⃣ Disadvantages
 
 ❌ Components lose original meaning
 
@@ -123,7 +123,7 @@ Used to choose number of components.
 
 ---
 
-# 8️⃣ **Where PCA is used?**
+# 8️⃣ Where PCA is used?
 
 ✔ Image compression
 

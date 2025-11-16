@@ -36,10 +36,17 @@ $z = w_1x_1 + w_2x_2 + ... + w_nx_n + b$
 **Activation function (Step function):**
 
 $$
+f(z) =
+\begin{cases}
+1 & \text{if } z \ge 0 \\
+0 & \text{if } z < 0
+\end{cases}
+$$
+
 
 **Final output:**
 
-     $y = f(z)$
+$y = f(z)$
 
 ---
 
@@ -53,6 +60,7 @@ Think of the perceptron as a **judge**.
 * Step function decides **YES (1)** or **NO (0)**
 
 If total evidence ≥ 0 → output is **1**
+
 Else → output is **0**
 
 ---

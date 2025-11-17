@@ -25,7 +25,7 @@ So linear SVM fails.
 Instead of trying to separate data **in the original 2D/3D space**,
 we **map** the data into a **higher-dimensional space** where it *becomes linearly separable*.
 
-### Example (very important for exam):
+### Example:
 
 Imagine two circular classes:
 

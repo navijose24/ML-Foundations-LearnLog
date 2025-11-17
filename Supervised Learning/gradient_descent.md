@@ -24,9 +24,9 @@ h_\theta(x) = \theta^T x
 
 Gradient descent minimizes:
 
-$$[
+$$
 J(\theta) = \frac{1}{2m} \sum_{i=1}^{m} (h_\theta(x^{(i)}) - y^{(i)})^2
-]$$
+$$
 
 Where
 

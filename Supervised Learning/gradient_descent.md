@@ -8,15 +8,15 @@ Gradient Descent is an **optimization algorithm** used to find the **best parame
 
 For multivariate linear regression:
 
-$$[
+$$
 h_\theta(x) = \theta_0 + \theta_1 x_1 + \theta_2 x_2 + ... + \theta_n x_n
-]
+$$
 
 In vector form:
 
-[
+$$
 h_\theta(x) = \theta^T x
-]$$
+$$
 
 ---
 
@@ -40,18 +40,15 @@ Where
 
 We update each parameter θ until the cost becomes minimum:
 $$
-[
 \theta_j := \theta_j - \alpha \frac{1}{m}\sum_{i=1}^{m}(h_\theta(x^{(i)}) - y^{(i)})x_j^{(i)}
-]
 $$
 
 Where
-$
-* ( \alpha ) = learning rate
+
+* $( \alpha )$ = learning rate
 * ( j = 0, 1, 2, ..., n )
 
-For θ₀ (bias term), ( x_0 = 1 )
-$
+For θ₀ (bias term), $( x_0 = 1 )$
 ---
 
 # 🎯 **4. Steps in Gradient Descent**
@@ -97,7 +94,8 @@ Gradient updates:
 
 $$
 \theta_0 := \theta_0 - \alpha \frac{1}{m}\sum(h_\theta(x^{(i)}) - y^{(i)})
-
+$$
+$$
 \theta_1 := \theta_1 - \alpha \frac{1}{m}\sum(h_\theta(x^{(i)}) - y^{(i)}) x^{(i)}
 $$
 

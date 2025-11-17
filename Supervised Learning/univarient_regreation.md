@@ -115,7 +115,7 @@ For **one variable**, only linearity and independence matter.
 **Linear regression with one variable is the simplest supervised learning algorithm used to predict a continuous output. It assumes a linear relationship between the input variable x and output y. The hypothesis function is a straight line defined as (h_\theta(x)=\theta_0+\theta_1x). The parameters (\theta_0) and (\theta_1) are learned by minimizing the cost function, which is Mean Squared Error (MSE). The MSE is given by:**
 
 
-$J(\theta_0, \theta_1)=\frac{1}{2m}\sum_{i=1}^m (h_\theta(x^{(i)}) - y^{(i)})^2$
+$$J(\theta_0, \theta_1)=\frac{1}{2m}\sum_{i=1}^m (h_\theta(x^{(i)}) - y^{(i)})^2$$
 
 **To find the parameter values that minimize the cost, gradient descent is used. Gradient descent iteratively updates the parameters using the formula:**
 

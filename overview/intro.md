@@ -53,11 +53,11 @@ Parameter estimation helps fit models to data.
 
 ---
 
-3. Introduction to Bayesian Formulation
+### 3. Introduction to Bayesian Formulation
 
 Bayesian modelling treats parameters as random variables.
 
-### **3.1 Bayes’ Theorem**
+**3.1 Bayes’ Theorem**
 
 $$ 
 P(\theta|D) = \frac{P(D|\theta)P(\theta)}{P(D)}

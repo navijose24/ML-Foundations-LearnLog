@@ -1,6 +1,6 @@
 ## 🧠 Case Study: Develop a Classifier for Face Detection
 
-
+> A face detection classifier is trained using extracted features from labeled face/non-face images. The model’s performance is validated using cross-validation and assessed using metrics like Precision, Recall, and AUC. Ensemble methods such as bagging can further improve robustness.
 
 
 ### 🎯 Objective:
